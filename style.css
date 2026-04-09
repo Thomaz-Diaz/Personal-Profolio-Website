@@ -7,7 +7,7 @@ p {
   font: menu;
   stroke-size: 15px;
 }
-
+/*Art Banner*/
 .top-banner {
   width: 900px;
   height: 200px;
@@ -15,7 +15,8 @@ p {
   border: 2px solid black;
   background-color: rgb(242, 242, 242);
 }
-.top-container {
+/*Nav Bar*/
+.nav-container {
   width: 900px;
   height: 50px;
   margin: auto;
@@ -23,6 +24,12 @@ p {
   border: 2px solid black;
   background-color: rgb(242, 242, 242);
 }
+.nav-container ul li {
+  display: inline;
+  padding-inline: 10px;
+  list-style: none;
+}
+/*Center Page Container*/
 .center-container {
   width: 900px;
   height: 100%;
